@@ -1,0 +1,22 @@
+/* 添加你自己的样式和布局 */
+
+.game-container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.score, .lives {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.game-board {
+    width: 100%;
+    height: 400px;
+    background-image: url('background.jpg'); /* 设置背景图像 */
+    background-size: cover;
+    position: relative;
+}
+
+/* 添加更多的样式，用于板块、火彩人、钉刺、输送带等 */
